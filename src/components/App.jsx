@@ -1,15 +1,15 @@
-import { Profile } from './../Profile/Profile';
-import { Section } from './../Section/Section';
-import { FriendList } from './../FriendList/FriendList';
-import { TransactionHistory } from './../TransactionHistory/TransactionHistory';
+import { Profile } from './Profile/Profile';
+import { Section } from './Section/Section';
+import { FriendList } from './FriendList/FriendList';
+import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 
-import friends from './../json/friends.json';
-import user from './../json/user.json';
-import data from './../json/data.json';
-import transactions from './../json/transactions.json';
+import friends from './json/friends.json';
+import user from './json/user.json';
+import data from './json/data.json';
+import transactions from './json/transactions.json';
 import { Container } from './App.styled';
 
-import { updateArray } from './../Utils/filterData';
+import { updateArray } from './Utils/filterData';
 
 const newData = updateArray(data);
 
